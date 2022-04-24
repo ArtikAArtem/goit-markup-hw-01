@@ -1,0 +1,93 @@
+/* Variables*/
+:root{
+    --main-color: #757575;
+    --main-color-dark: #212121;
+    --main-color-light: #fff;
+    --accent-color: #2196F3;
+    --background-color-dark: #2F303A;
+    --background-color-light: #F5F4FA;
+}
+
+/* Global Styles*/
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-color)
+}
+
+/* Common Style */
+
+.section{
+    background-color: var(--background-color-light);
+}
+
+.section-title{
+    color: var(--main-color-dark) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0,88;
+    text-align: center;
+}
+.list{
+    list-style: none;
+}
+
+/* Header */
+
+.header {
+    background-color: var(--main-color-light);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+
+    color: var(--main-color-dark);
+}
+
+.link {
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1,2;
+    
+    color: var(--accent-color);
+}
+.accent {
+    color: #212121;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
+/* Main */
+
+.button{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+    border: 0px;
+   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,8;
+     
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
