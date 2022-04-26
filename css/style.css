@@ -10,7 +10,7 @@
 
 /* Global Styles*/
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto' 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -60,7 +60,6 @@ body{
 }
 
 .logo {
-    font-family: 'Oleo Script';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -94,25 +93,22 @@ body{
     font-size: 44px;
     line-height: 1,36;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .button-hero {
-    font-family: inherit;
-    font-size: inherit;
-    background-color: transparent;
-    border: 0px;
 
     color: var(--main-color-light);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1, 8;
+    line-height: 1,8;
 
     display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
-    background: var(--accent-color);
+    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -163,6 +159,8 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .link-footer:hover,
 .link-footer:focus{
@@ -192,7 +190,7 @@ body{
     line-height: 1,62;
     
     text-align: center;
-    
+    cursor: pointer;
     color: var(--main-color-dark);
     background: var(--background-color-light);
     border-radius: 4px;
